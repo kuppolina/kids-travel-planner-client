@@ -1,0 +1,23 @@
+.add-trip-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  border-color: #000000;
+  background-color: #ddd;
+  width: 300px; // Set a fixed width
+  height: 285px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+  gap: 38px;
+  position: absolute;
+  margin-top: 10;
+  }
+  
+  .plus-sign {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+  }

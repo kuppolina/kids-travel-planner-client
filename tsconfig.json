@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": [
+    "src",
+    "/Users/polinakuptsova/kpi/diploma-prj/trip-planner-client/declarations.d.ts" // Adjust the path to the actual location of your .d.ts files
+  ]
+}

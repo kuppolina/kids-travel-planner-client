@@ -1,0 +1,14 @@
+@import "../theme";
+
+.header {
+  &.container {
+    @include center;
+  }
+
+  &.title {
+    font-weight: bold;
+    color: $fields;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}

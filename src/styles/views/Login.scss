@@ -1,0 +1,56 @@
+.login.container {
+  display: flex;
+  height: 100vh;
+}
+
+.login.form-container {
+  flex: 0 0 50%; /* This ensures the form container takes half the width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.login.form {
+  width: 100%;
+  max-width: 400px;
+  /* Remove the background color, border, and padding */
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.login.field {
+  margin-bottom: 20px;
+}
+
+.login.label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.login.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login.image-container {
+  flex: 1; /* The image container will take the remaining space */
+  height: 100vh;
+  overflow: hidden; /* Ensure the image fits within the container */
+}
+
+.login.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
